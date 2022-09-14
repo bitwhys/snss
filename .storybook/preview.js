@@ -1,4 +1,4 @@
-import ThemeProvider from '../theme/ThemeProvider'
+import '../theme/tailwind.css'
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
@@ -8,11 +8,3 @@ export const parameters = {
     },
   },
 }
-
-export const decorators = [
-  Story => (
-    <ThemeProvider>
-      <Story />
-    </ThemeProvider>
-  ),
-]

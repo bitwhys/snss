@@ -1,7 +1,6 @@
 import React from 'react'
-import Box from '@mui/material/Box'
 import { Meta, Story } from '@storybook/react'
-import TeamCard, { TeamCardProps } from '../components/TeamCard'
+import TeamCard, { TeamCardProps } from '../TeamCard'
 
 const meta: Meta = {
   title: 'Elements/Team Card',

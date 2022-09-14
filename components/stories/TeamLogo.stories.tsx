@@ -1,16 +1,15 @@
 import React from 'react'
-import Box from '@mui/material/Box'
 import { Meta, Story } from '@storybook/react'
-import TeamLogo, { TeamLogoProps } from '../components/TeamLogo'
+import TeamLogo, { TeamLogoProps } from '../TeamLogo'
 
 const meta: Meta = {
   title: 'Elements/Team Logo',
   component: TeamLogo,
   decorators: [
     Story => (
-      <Box sx={{ width: 124, height: 124 }}>
+      <div className="h-[124px] w-[124px]">
         <Story />
-      </Box>
+      </div>
     ),
   ],
 }
